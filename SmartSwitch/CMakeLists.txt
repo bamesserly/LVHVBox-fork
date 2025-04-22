@@ -33,6 +33,7 @@ message(STATUS "Adding PIO header for SmartSwitch")
                         pico_stdlib
                         hardware_adc
                         hardware_pio
+                        hardware_dma
                         tinyusb_device
                         tinyusb_board)
   pico_add_extra_outputs(${target})
